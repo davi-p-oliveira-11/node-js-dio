@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "npx tsc",
+    "dist": "tsup src",
     "start:dev": "tsx src/index.ts",
     "start:watch": "tsx watch src/index.ts",
     "start:dist": "npm run dist && node src/index.js"
@@ -16,6 +16,7 @@
     "typescript": "^5.7.3"
   },
   "devDependencies": {
+    "tsup": "^8.3.5",
     "tsx": "^4.19.2"
   }
 }
