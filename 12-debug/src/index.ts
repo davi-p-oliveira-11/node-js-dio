@@ -1,1 +1,3 @@
-console.log("ola");
+import { getBaseEmail } from "./services/email";
+
+getBaseEmail("John");
