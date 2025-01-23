@@ -1,5 +1,6 @@
+"use strict";
 function main() {
-    var myEmail = "felipao@dio.me";
+    let myEmail = "felipao@dio.me";
     console.log(myEmail);
 }
 main();
