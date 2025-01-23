@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dist": "npx tsc",
-    "start:dev": "npm run dist && node src/index.js"
+    "start:dev": "tsx src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm run dist && node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
   }
 }
